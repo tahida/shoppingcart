@@ -1,0 +1,104 @@
+.navbar {
+    width: 100%;
+    background-color: #171717;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 1rem;
+    z-index: 50;
+    height: 110px;
+}
+
+.navbar_logo {
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.navbar_links{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.navbar_links > li {
+    padding-left: 1.5rem;
+}
+
+/* karena di sisi clien Link = a maka untuk penulisan di css di buat a juga */
+.navbar_links > li > a {
+    text-align: none;
+    color: white;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+}
+
+.navbar_links > li > a > span {
+    display: flex;
+    align-items: center;
+    margin-left: 8px;
+}
+
+.cart_link{
+    background: #333;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.cart_link:hover {
+    background: #a01b1b;
+    color: white;
+}
+
+.cartlogo_badge{
+    width: 30px;
+    height: 30px;
+    background: white;
+    border-radius: 50px;
+    margin-left: 8px;
+    color: #171717;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.hamburger_menu{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.hamburger_menu > div {
+    width: 100%;
+    height: 3px;
+    background-color: white;
+}
+
+.hamburger_menu:hover > div {
+    background: #a01b1b;  
+}
+
+/* membuat responsive untuk navbarnya atau media query */
+@media (max-width: 960px) {
+    .navbar_links{
+        display: none;
+    }
+
+    .hamburger_menu {
+        display: flex;
+    }
+}
+
+/* membuat media untuk ukuran tulisan logo */
+@media (max-width: 500px) {
+    .navbar_logo h2 {
+        font-size: 1rem;
+    }
+}

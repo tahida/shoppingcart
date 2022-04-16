@@ -10,8 +10,8 @@ install beberapa depedenci
 git init
 
 
-
-
+https://www.typescriptlang.org/id/docs/handbook/jsx.html --> dasar penggunaan
+https://www.dumetschool.com/blog/Cara-Menggunakan-Webpack-Dev-Server --> cara setting web dev pack
 data cloud mongoodb
 usershopping
 ps -> usershopping123
@@ -22,3 +22,18 @@ ps -> usershopping123
 npm i axios react-router-dom redux react-redux react-thunk redux-devtools-extension
 
 logo di ambil dari cdnjs.com
+
+cara upload ke github 
+git add -A
+git commit -m "update"
+git remote add origin httpps(untuk yang belum ada repository)
+git branch -M main
+git push -u origin main
+
+
+add extension di chrome atau browser react devtools
+
+rafc / rafce --> perintah singkat untuk membuat import 
+
+
+npm i react-router-dom@5.2.0

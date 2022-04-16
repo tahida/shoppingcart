@@ -1,0 +1,168 @@
+.product {
+    width: 300px;
+    padding: 1rem;
+    background: white;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+    margin: 8px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.product > img {
+    height: 170px;
+    border-radius: 20px;
+}
+
+.product-info > p {
+    margin-bottom: 8px;
+}
+
+.info-price {
+    font-weight: bold;
+}
+
+.info-name {
+    margin-top: 8px;
+    font-size: 1rem;
+    overflow: hidden;
+}
+
+.info-description {
+    font-size: 0.8rem;
+}
+
+.info-button {
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    text-align: center;
+    color: green;
+    background: rgb(141, 136, 136);
+    border: 1px solid black;
+}
+
+.info-button:hover {
+    color: rgb(141, 136, 136);
+    background: black ;
+}
+
+
+
+
+@media (max-width: 1330px) {
+    .product {
+    width: 300px;
+    
+    }
+}
+
+@media (max-width: 1300px) {
+    .product {
+    width: 300px;
+    
+    }
+}
+
+@media (max-width: 998px) {
+    .product {
+        width: 380px;
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+            
+        }
+    
+}
+
+
+@media (max-width: 998px) {
+    .product > img {
+        height: 280px;
+        border-radius: 40px;
+    }
+    
+}
+@media (max-width: 840px) {
+    .product {
+        width: 385px;
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+            
+        }
+    
+}
+
+
+@media (max-width: 840px) {
+    .product > img {
+        height: 290px;
+        border-radius: 45px;
+    }
+    
+}
+
+
+
+
+
+@media (max-width: 650px) {
+    .product {
+        width: 330px;
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+            
+        }
+    
+}
+
+
+@media (max-width: 650px) {
+    .product > img {
+        height: 170px;
+        border-radius: 50px;
+    }
+    
+}
+
+@media (max-width: 520px) {
+    .product {
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+            
+        }
+    
+}
+
+
+@media (max-width: 520px) {
+    .product > img {
+        height: 170px;
+        border-radius: 20px;
+    }
+    
+}
+
+@media (max-width: 420px) {
+    .product {
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+            
+        }
+    
+}
+
+
+@media (max-width: 420px) {
+    .product > img {
+        height: 120px;
+        border-radius: 15px;
+    }
+    
+}
